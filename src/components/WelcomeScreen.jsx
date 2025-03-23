@@ -49,7 +49,7 @@ const WelcomeScreen = () => {
                   <input type="text" placeholder="Username" />
                   <input type="password" placeholder="Password" />
                   <button className="signup-button">Sign Up</button>
-                  <p>Already have an account? <span onClick={() => setView("signup")} className="switch-link"> Sign In</span></p>
+                  <p>Already have an account? <span onClick={() => setView("login")} className="switch-link"> Sign In</span></p>
                   <button className="back-btn" onClick={() => setView("welcome")}>Back</button>
                 </>
               )
