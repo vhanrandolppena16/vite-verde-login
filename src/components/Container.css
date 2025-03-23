@@ -1,0 +1,20 @@
+/* src/components/Container.css */
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(180deg, #a6d89d 0%, #587253 100%);
+  }
+  
+  .left-section,
+  .image-section,
+  .signup-section {
+    flex: 1;
+    height: 80%;
+    background-color: rgba(230, 0, 0, 0.2);
+    border-radius: 20px;
+    margin: 10px;
+  }
+  
