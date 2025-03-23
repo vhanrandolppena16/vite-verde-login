@@ -1,6 +1,5 @@
 import { useState } from "react";
 import "./WelcomeScreen.css";
-import hydroponicsImage from "D:/vrsp11603/Technical Defense Application/Verde Prototype Vite/verde-login/src/assets/images/hydroponics2.jpg";
 import logo from "../assets/images/Verde Full Logo.png"; // Import your logo
 
 const WelcomeScreen = () => {
